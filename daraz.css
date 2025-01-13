@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: arial;
+}
+.border{
+    border:1px solid transparent;
+}
+.border:hover{
+    border-radius: 5px;
+    background-color: #ff5500;
+    border:1px solid transparent;
+}
+header{
+    color: #ffffff;
+}
+.nav-links{
+    color: #ffffff;
+    height: 28px;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    background-color: #ff5100cb;
+}
+.links{
+   padding: 0px 8px 0px 8px ;
+   font-size: 0.85rem;
+}
+.nav-bar{
+    height: 66px;
+    background-color: #ff5100cb;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+   
+}
+.logo{
+    height: 48px;
+    width: 120px;
+}
+.logo-img{
+    height: 48px;
+    width: 120px;
+    background-image: url("logo.png");
+    background-size: cover;
+}
+.search-bar{
+    height: 47px;
+    width: 800px;
+    margin-top: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.input-nav{
+    height: 38px;
+    width: 730px;
+    border-right: 1px solid #d6d6d6;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius:13px;
+    padding-left: 15px;
+    border: none;
+}
+.search-btn{
+    font-size: 17px;
+    color:#ff732d;
+    height: 38px;
+    width: 50px;
+    background-color:#ffe1d2;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius:13px;
+    border: none;
+}
+.login-bar{
+    height: 40px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-a{
+   font-size: 1rem;
+   font-weight:700;
+   padding-left: 8px;
+}
+.login-icon{
+    font-size: 25px;
+}
+.login-a1{
+    font-size: 1rem;
+    font-weight:700;
+}
+.nav-select{
+border: none;
+background-color: transparent;
+height:38px ;
+width: 42px;
+color: #ffffff;
+font-weight: 600;
+font-size: 1rem;
+}
+option{
+    color: black;
+}
+.language{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left:8px ;
+}
+.sign-up-icon{
+    font-size:25px;
+}
+.cart{
+    font-size: 25px;
+    padding: 5px 5px 5px 5px;
+    margin-right:20px ;
+}
+.sign-up{
+    padding: 8px 8px 8px 8px;
+}
+.border2:hover{
+box-shadow: 0px 0px 10px #ff8d55,0px 0px 10px #ff8d55,0px 0px 10px #ff8d55;
+border-radius: 10px;
+}
+/* header-ends here */
+/* main starts */
+main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.groceries{
+    height:344px;
+    width: 238px;
+    border: 1px solid #d4d4d4 ;
+    color: #757575;
+    margin-left: 10px;
+    margin-top: 10px; 
+    padding-top: 5px;
+    padding-left: 13px;
+    font-size:17px ;
+    list-style-position: inside;
+    border-radius: 10px;
+}
+.li{
+    padding-top: 6px;
+}
+.hero{
+    height: 344px;
+    width: 938px;
+    margin-left: 13px;
+    border-radius: 8px;
+}
+.delivery{
+    height: 42px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    border-radius: 14px;
+    border: 1px solid #d4d4d4 ;
+}
+.delivery:hover{
+    background-color: #ffad85;
+}
+.box{
+    display:flex;
+    width: 150px;
+    height: 24px;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+}
+.de-a{
+    padding-left: 5px;
+    font-size: 15px;
+}
+.box-pre{
+    width: 210px;
+}
+.di2{
+    margin-top: 85px;
+}
+.flash-sale{
+height: 100px;
+}
+.flash-s{
+    color: #757575;
+    font-size: 30px;
+}
+/* main end here */
+.contant{
+    height:800px;
+    width: 1200px;
+    margin: 60px 0px 0px 60px;
+}
+.on-sale-a{
+    color: #ff5500;
+    font-size: 0.85rem;
+}
+.for-flash-sale{
+   
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.span-stop{
+    height: 40px;
+    width: 40px;
+    background-color: #ff6c23;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.span1{
+    margin-left: 10px;
+}
+.span2{
+    margin-left: 10px;
+}
+.span3{
+    margin-left: 10px;
+}
+.ending{
+    padding-left: 100px; 
+}
+.on-sale-a{
+    padding-left: 15px;
+}
+.for-shoping{
+    height:700px;
+    width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box1{
+    height:290px;
+    width: 188px;
+   margin: 15px 0px 0px 10px ;
+}
+.shop-rate{
+    color: #ff5500;
+    font-size:20px;
+    margin-top: 14px;
+}
+.shop-p{
+    margin-top: 20px;
+    font-size: 15px;
+}
+.shadow{
+border: 2px solid transparent;
+}
+.shadow:hover{
+    box-shadow: 1px 1px 10px #d4d4d4,1px 1px 10px #d4d4d4,1px 1px 10px #d4d4d4;
+}

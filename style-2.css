@@ -1,0 +1,499 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: "poppins", sans-serif;
+}
+body{
+background-color:#3E5879 ;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #213555;
+
+    
+}
+.area-1{
+    height: 100%;
+    width: 40%;
+    text-decoration: none;
+    list-style: none;
+    font-size:2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.area-2{
+    height: 100%;
+    width: 40%;
+    font-size:1rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+
+
+}
+.area-2 ul{
+    
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+   
+}
+.area-2 ul li{
+    text-decoration: none;
+    list-style: none;
+    margin: 0px 23px;
+    
+}
+  
+a {
+    text-decoration: none;
+    color: #441752;
+    font-weight: 500;
+}
+.area-2 ul  :hover{ 
+
+  font-size: 17px;
+  background-color: #3f75bd;
+  border-radius:10px;
+}
+.area-1 img{
+    height:90px;
+    width: 90px;
+    margin-right: 30px ;
+}
+/* working for main */
+
+main{
+
+    margin-top: 15px;
+    height:100% ;
+    width: 100%;
+}
+/* section No -1 */
+.first-section{
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+/* left */
+.left{
+     width: 45%;
+     height: 40%;
+
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-text{
+    font-size: 2.7rem;
+   
+}
+.highlights {
+
+    color:#ffe0b7;
+}
+#element{
+    color:#ffe0b7;
+}
+/* right  */
+.right{
+    width: 40%;
+    height: 40%;
+    margin: 30px -30px 0px 0px ;
+}
+.image-1 img{
+     height: 75%;
+     width: 75%;
+    
+}
+main hr{
+    height: 4px;
+    margin: 80px 84px;
+    background-color: #f3dfc4;
+}
+/* second-section */
+.second-section{
+    display: flex;
+justify-content: space-around;
+align-items: center;
+width: 100%;
+height: 100%;
+margin-top: -10px;
+}
+.left-section{
+    width: 40%;
+    height: 40%;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+
+}
+.left-section p{
+    font-size: 2.5rem;
+    margin:15px;
+    color:#ffe0b7;
+    
+}
+.left-section h3{
+   margin: -20px 0px 0px 10px  ;
+   color: #F5EFE7;
+   margin-top: -15px;
+}
+.right-section{
+    width: 40%;
+    height: 40%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.right-section img{
+height: 120%;
+width: 100%
+}
+/* third-section */
+.Third-section{
+
+
+    width: 60vw;
+    height: 40vh;
+    margin: 30px 0px 10px 58px;
+}
+.Third-section h1{
+  margin-left: 15px ;
+  font-size: 2rem;
+  color:#ffe0b7;
+}
+.third-section-pra{
+margin: 10px 0px 0px 15px ;
+color:#F5EFE7;
+font-size: 1.1rem;
+}
+.third-ul li{
+    margin-left:20px ;
+    font-size: 1rem;
+    color:#F5EFE7;
+}
+/* forth-section */
+
+
+.forth-sec{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.html{
+width: 30%;
+height: 80%;
+display: flex;
+align-items: center;
+flex-direction: column;
+
+}
+.html img{
+    height: 50%;
+    width: 50%;
+}
+.html p{
+    font-size: 1.5rem;
+    color:#F5EFE7;
+    margin: 10px 0px 0px 20px;
+}
+/* html ends */
+.Css{
+width: 30%;
+height: 80%;
+display: flex;
+align-items: center;
+flex-direction: column;
+margin-top: 60px;
+}
+.Css img{
+    height: 50%;
+    width: 50%;
+}
+.Css p{
+    font-size: 1.5rem;
+    color:#F5EFE7;
+    margin: 10px 0px 0px 20px;
+}
+/* css paragraph end */
+
+.link-images{
+    margin-left:20px ;
+    font-size: 1.1rem;
+    color:#ffe0b7;
+}
+ .Css-ul{
+    margin-top: 20px;
+    margin-left: -70px;
+    color:#ffe0b7;
+}
+.Css-text{
+font-size: 1.4rem;
+}
+/* css end */
+.jS{
+width: 30%;
+height: 80%;
+display: flex;
+align-items: center;
+flex-direction: column;
+margin-top: 35px;
+}
+.jS img{
+    height: 50%;
+    width: 50%;
+}
+/* main ends here */
+/* footer */
+footer{
+    margin-top:20px ;
+}
+
+.footer-btn{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #213555;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.footer-btn p{
+    font-size: 1.5rem;
+} 
+.outer{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+
+}
+.footer-section{
+height: 95vh;
+width:  90vw ;
+background-image:url("footer-bg-2.png") ;
+background-size: cover;
+margin: 20px 0px 20px 0px ;
+}
+.footer-heading{
+    height: 60px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 2.3rem;
+}
+.logo-footer{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+.logo-footer img{
+    height: 150px;
+    width: 150px;
+}
+/* best three section start */
+.best-three-sec{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.first-1{
+    height: 100%;
+    width: 30%;
+    background-color: #D8C4B6;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+.first-1 h2{
+margin-top: -50px;
+
+}
+.first-1 p{
+    margin-top: -100px;
+    margin-left: 10px;
+}
+.second-2{
+    height: 100%;
+    width: 30%;
+    background-color: #D8C4B6;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+.second-2 p{
+    margin-left: 10px;
+}
+.second-2 ul li{
+    color:#3E5879 ;
+}
+
+.third-3{
+    height: 100%;
+    width: 30%;
+    background-color: #D8C4B6;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+.third-3 ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 30%;
+    width: 100%;
+}
+
+.third-3 ul a img{
+    height: 30px;
+    width: 30px;
+}
+.third-3 ul li{
+    margin-left: 10px;
+}
+
+/* scorling animation */
+@keyframes appear {
+    from{opacity: 0;
+         scale: 0.5; }
+    to{opacity: 1;
+        scale: 1;}
+}
+.block{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 20%;
+}
+/* Animation for button */
+.button {
+    position: relative;
+    display: inline-block;
+    padding: 8px 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+
+  }
+  
+  /* Glow effect on hover */
+  .button:hover {
+    box-shadow: 0 0 20px rgba(239, 182, 200, 1), 0 0 30px rgba(239, 182, 200, 0.8);
+    background-color: #5E686D;
+  }
+  
+  /* Sparkle effect */
+  .button:hover::before,
+  .button:hover::after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0;
+    animation: sparkle 1s ease-out;
+  }
+  
+  .button:hover::before {
+    top: -10px;
+    left: 30%;
+  }
+  
+  .button:hover::after {
+    top: 10px;
+    right: 20%;
+  }
+  
+  /* Third sparkle */
+  .button:hover .sparkle {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    animation: sparkle 1s ease-out;
+  }
+  
+  /* Sparkle animation */
+  @keyframes sparkle {
+    0% {
+      transform: scale(0.5);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.5);
+      opacity: 0.8;
+    }
+    100% {
+      transform: scale(2);
+      opacity: 0;
+    }
+  }
+  /* Section Animation start at here  */
+  .pan-section {
+    position: relative;
+    overflow: hidden;
+   
+  }
+  
+  /* Styles for the individual elements */
+  .element {
+    animation: pan 6s linear 1;
+  }
+  
+  @keyframes pan {
+    0% {
+      transform: translateX(-100%); /* Start off-screen to the left */
+    }
+    20% {
+      transform: translateX(3%); /* Stop at 20% of the container width */
+    }
+    100% {
+      transform: translateX(3%); /* Stay at 20% */
+    }
+  }

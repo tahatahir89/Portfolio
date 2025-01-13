@@ -1,0 +1,605 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: arial;
+
+}
+
+.navbar{
+    height: 66px;
+   
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    border:2px solid black;
+   
+    
+}
+.logo{
+    height: 56px;
+    width: 121px;
+    background-image: url("logo.png");
+    background-size: cover;
+    
+}
+.box1{
+    color: #000000;
+    font-size: 20px;
+   text-decoration: none;
+   padding: 0px 16px 0px 16px;
+}
+
+.box2{
+    color: #000000;
+    font-size: 20px;
+   text-decoration: none;
+   padding: 0px 16px 0px 16px;
+}
+.box3{
+    color: #000000;
+    font-size: 20px;
+   text-decoration: none;
+   padding: 0px 16px 0px 16px;
+}
+.box4{
+    color: #000000;
+    font-size: 20px;
+   text-decoration: none;
+   padding: 0px 16px 0px 16px;
+}
+.box5{
+    color: #000000;
+    font-size: 20px;
+   text-decoration: none;
+   padding: 0px 16px 0px 16px;
+}
+.box6{
+    color: #000000;
+    font-size: 20px;
+   text-decoration: none;
+   padding: 0px 16px 0px 16px;
+}
+.box7{
+    color: #000000;
+    font-size: 20px;
+   text-decoration: none;
+   padding: 0px 16px 0px 16px;
+}
+.box8{
+    color: #000000;
+    font-size: 20px;
+   text-decoration: none;
+   padding: 0px 16px 0px 16px;
+   
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border:1.5px solid #ffa53e ;
+}
+
+@keyframes colorAnimate{
+    from{background-color:#ffffff} 
+    to{background-color:#ffa53e }
+}
+.animate:hover{
+    animation:colorAnimate 3s linear 0s infinite none  ;
+}
+#main{
+height: 1600px;
+padding-top: 100px;
+display: flex;
+background-color:  #ffffffe8;
+
+}
+.courses{
+    font-size:20px ;
+    color: #febe10;
+    padding-left: 20px;
+}
+.forhome{
+  display: flex;
+  height: 30px;
+  padding-left:10px;
+margin-top: 30px;
+}
+.h1it{
+    font-size: 72px;
+    display: flex;
+}
+.itspan{
+    height: 20px;
+    width: 20px;
+    background-color:#febe10 ;
+border-radius: 50%;
+margin-top: 45px;
+margin-left: 10px;
+
+}
+.h1div{
+    display: flex;
+}
+.it{
+    height: 1625px;
+    width: 466px;
+}
+.h4{
+    font-size: 30px;
+    padding-left: 20px;
+}
+.thforp{
+    font-size: 20px;
+    color: #333333;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.h4-2{
+    font-size: 30px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.thforp2{
+    font-size: 20px;
+    color: #333333;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.h4-3{
+    font-size: 30px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+
+.thforp3{
+    font-size: 20px;
+    color: #333333;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.h4-4{
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.thforp4{
+    font-size: 20px;
+    color: #333333;
+    padding-left: 20px;
+    
+}
+.h4-5{
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.thforp5{
+    font-size: 20px;
+    color: #333333;
+    padding-left: 20px;
+}
+.upper{
+    display: flex;
+}
+/* theory ends here */
+.img{
+    height: 1500px;
+    width:500px ;
+    margin-left: 40px;
+  
+
+}
+.part1{
+    height: 300px;
+    width: 100%;
+
+
+}
+.img1{
+    height: 255PX;
+    width: 100%;
+    background-image: url("homeaccp.png");
+    background-size: cover;
+
+   
+}
+.part2{
+    height: 410px;
+    width: 100%;
+
+
+}
+.img2{
+    height: 550PX;
+    width: 100%;
+    background-image: url("homeenglish.png");
+    background-size: cover;
+   
+   
+}
+.part3{
+    height: 300px;
+    width: 100%;
+
+padding-top: 60px;
+}
+.img3{
+    height: 255PX;
+    width: 100%;
+    background-image: url("homesp.png");
+    background-size: cover;
+    
+    
+   
+}
+.part4{
+    height: 300px;
+    width: 100%;
+
+padding-top: 60px;
+display: flex;
+}
+.img5{
+    height: 250px;
+    width: 200px;
+    background-image: url("homestc.png");
+    background-size: cover;
+   
+    
+}
+.img6{
+    height: 180px;
+    width: 300px;
+    background-image: url("accp.png");
+    background-size: cover;
+   
+}
+.arrow{
+height: 60px;
+width: 60px;
+background-color: #febe10;
+border-radius: 50%;
+align-items: center;
+display: flex;
+
+}
+
+.theory2nd{
+    height: 1400px;
+    width:300px ;
+    margin-left: 40px;
+   
+
+}
+.thpart1{
+    height: 400px;
+    width: 100%;
+
+}
+.part1h1{
+padding-top: 30px;
+font-size: 30px;
+
+}
+.part1p1{
+    font-size: 17px; 
+}
+.icon1{
+    height: 40px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    padding-top: 50px;
+}
+.thpart2{
+    height: 400px;
+    width: 100%;
+
+margin-top: 30px;
+}
+.part2h1{
+    font-size: 30px;
+    padding-top: 50px;
+    
+}
+.part2p2{
+    font-size: 17px;
+    padding-top: 20px;
+}
+.thpart4{
+    height: 460px;
+    width: 100%;
+
+margin-top: 30px;
+}
+.part3h1{
+    font-size: 30px;
+    padding-top: 50px;
+}
+.part3p3{
+    font-size: 17px;
+    padding-top: 20px;
+}
+.icon1{
+    height: 60px;
+    width: 60px;
+}
+/* main ends here */
+
+footer{
+    height: 500px;
+    text-align: center;
+   
+   
+}
+.imgcourses{
+    height: 400px;
+    width:100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  
+}
+
+.python{
+    height: 150px;
+    width: 100px;
+  
+   align-items: center;
+  padding-bottom: 40px;
+  padding-left: 100px;
+
+}
+.imgpython{
+    height: 80px;
+    width: 73px;
+    background-image: url("python.png");
+    background-size: cover;
+ 
+margin-left: 10px;
+margin-top: 20px;
+ 
+  
+}
+.python-a{
+    font-size: 15px;
+    color: black;
+   padding-left:10px;
+    
+}
+/* img1ends for courses */
+.react{
+    height: 150px;
+    width: 110px;
+  
+   align-items: center;
+  padding-bottom: 40px;
+  padding-left: 100px;
+}
+.imgreact{
+    height: 80px;
+    width: 85px;
+    background-image: url("react.png");
+    background-size: cover;
+ 
+margin-left: 10px;
+margin-top: 20px;
+}
+.react-a{
+     color: black;
+   padding-left:10px; 
+   font-size: 15px;
+    
+}
+.unix{
+    height: 150px;
+    width: 140px;
+  
+   align-items: center;
+  padding-bottom: 40px;
+  padding-left: 100px;
+}
+.imgunix{
+    height: 80px;
+    width: 115px;
+    background-image: url("uiuix-2.jpg");
+    background-size: cover;
+ 
+margin-left: 20px;
+margin-top: 40px;
+
+}
+.unix-a{
+    color: #febe10;
+    padding-left:10px; 
+    font-size: 15px;
+     
+}
+.larva{
+    height: 150px;
+    width: 140px;
+    
+   align-items: center;
+  padding-bottom: 40px;
+  padding-left: 100px;
+}
+.imglarva{
+    height: 80px;
+    width: 76px;
+    background-image: url("laravel.png");
+    background-size: cover;
+ 
+margin-left: 20px;
+margin-top: 40px;
+}
+.larva-a{
+    color: #febe10;
+    padding-left:10px; 
+    font-size: 15px;
+}
+.html{
+    height: 150px;
+    width: 140px;
+   
+   align-items: center;
+  padding-bottom: 40px;
+  padding-left: 100px;
+}
+.imghtml{
+    height: 80px;
+    width: 76px;
+    background-image: url("html.png");
+    background-size: cover;
+  
+margin-left: 20px;
+margin-top: 40px;
+}
+.html-a{
+    color: #febe10;
+    padding-left:10px; 
+    font-size: 15px;
+}
+.angular{
+    height: 150px;
+    width: 140px;
+    
+   align-items: center;
+  padding-bottom: 40px;
+  padding-left: 100px;
+}
+.imgangular{
+    height: 80px;
+    width: 76px;
+    background-image: url("angular.png");
+    background-size: cover;
+  
+margin-left: 20px;
+margin-top: 40px;
+}
+.angular-a{
+    color: #febe10;
+    padding-left:10px; 
+    font-size: 15px;
+}
+
+a:hover{
+   
+    background-color:  #febe10;
+    box-shadow:0 0 10px #febe10 ,0 0 10px #febe10, 0 0 10px #febe10;
+  
+}
+/* img for fotter end */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0px;
+    font-family: 'arial';
+  }
+  
+  .nav {
+    height: 70px;
+    width: 100%;
+    background-color:#ffffff;
+    position: fixed;
+    border:1.5px solid black;
+    border-radius: 10px;
+  }
+
+  
+  .nav > .nav-header {
+    display: inline;
+  }
+  
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color:black;
+    padding: 20px 20px 20px 20px;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links {
+   display:inline;
+    float: right;
+    font-size: 18px;
+   
+  }
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 20px 16px 20px 16px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .nav > .nav-links > a:hover {
+    background-color:#ffa53e ;
+    box-shadow: 0 0 10px #ffa53e, 0 0 10px #ffa53e, 0 0 10px #ffa53e;
+    border-radius: 10px;
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+  
+  @media (max-width:600px) {
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+      background-color:gainsboro;
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid black;
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color:gray;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+    .nav > .nav-links > a {
+      display: block;
+      width: 100%;
+    }
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+  }
+  .logo{
+    height: 65px;
+    width: 140px;
+    background-image: url("logo.png");
+    background-size: cover;
+ display: inline-block;
+  }
