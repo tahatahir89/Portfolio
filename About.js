@@ -53,4 +53,10 @@ gsap.from(".sec-2-btn a",{
         start:'top 80%,',
     }
 });
+document.getElementById('downloadBtn').addEventListener('click', function() {
+    const link = document.createElement('a');
+    link.href = 'Taha-Resume.pdf'; // Replace with the path to your resume file
+    link.download = 'My_Resume.pdf'; // Name for the downloaded file
+    link.click();
+});
 
